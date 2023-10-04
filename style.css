@@ -1,0 +1,62 @@
+/* Hoja de estilos para Index.php y resultado.php */
+/* Estilo para párrafos <p> */
+p {
+    font-size: 16px; /* Tamaño de fuente para los párrafos */
+    line-height: 1.5; /* Espacio entre líneas */
+    margin-bottom: 20px; /* Espacio inferior entre párrafos */
+  }
+  
+/* Estilo para encabezados <h1> */
+h1 {
+    font-size: 24px; /* Tamaño de fuente para el encabezado h1 */
+    font-weight: bold; /* Negrita para resaltar el encabezado h1 */
+    margin-bottom: 20px; /* Espacio inferior entre encabezados h1 */
+  }
+
+/* Estilo para enlaces <a> */
+a {
+    text-decoration: none; /* Quita la decoración de subrayado por defecto */
+    color: #007BFF; /* Color del texto del enlace */
+    transition: color 0.3s ease; /* Efecto de transición suave para el color */
+  }
+  
+  /* Estilo para enlaces <a> cuando se pasa el cursor por encima */
+  a:hover {
+    color: #0056b3; /* Cambia el color del texto al pasar el cursor por encima */
+  }
+  
+/* Estilo para etiquetas <label> */
+label {
+    display: block; /* Hace que cada etiqueta se muestre en una línea separada */
+    margin-bottom: 10px; /* Espacio entre etiquetas */
+    font-weight: bold; /* Negrita para resaltar las etiquetas */
+  }
+  
+/* Estilo para campos de entrada <input> */
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="password"] {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 300px; /* Ancho máximo para limitar la longitud del campo de entrada */
+    padding: 10px; /* Espacio interno alrededor del campo de entrada */
+    margin-bottom: 20px; /* Espacio entre campos de entrada */
+    border: 1px solid #ccc; /* Borde del campo de entrada */
+    border-radius: 5px; /* Borde redondeado */
+  }
+  
+/* Estilo para el botón de envío <input type="submit"> */
+input[type="submit"] {
+    background-color: #007BFF; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espacio interno alrededor del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s ease; /* Efecto de transición suave */
+  }
+  
+/* Estilo para el botón de envío cuando se pasa el cursor por encima */
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el cursor por encima */
+  }
